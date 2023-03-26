@@ -7,12 +7,13 @@ body {
 .curvy_ellipse {
     background-image: url(../images/bg-interior-2.png);
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
     z-index: 5;
     height: 100vh;
+    width: 100%;
 }
 
 .curvy_ellipse::before {
@@ -44,6 +45,7 @@ body {
     color: rgb(38, 112, 175);
     margin: 0px 0px 20px;
     font-family: 'Open Sans', sans-serif;
+    padding: 0 10rem;
 }
 
 .request_free_book {
@@ -187,19 +189,87 @@ body {
 
 /* book contents section */
 .Inside_book_contents_sec {
-    background: #1d1c1c;
-    color: #FFFF;
+    background: #eeeeee;
 }
 
 .Inside_book_contains_heading {
     text-align: center;
     font-size: 35px;
     color: rgb(42, 42, 42);
-    margin: 0px;
 }
 
-.next_steps {
-    background-color: rgb(38, 112, 175);
+.box_1,
+.box_4 {
+    background: #044882;
+}
+
+.box_2,
+.box_3 {
+    background: #226dad
+}
+
+.next_steps,
+.Sales_Techniques,
+.Howto_Proceed,
+.Agent_Matters {
+    border-radius: 15px;
+    padding: 30px 30px 20px 30px;
+    margin: 0 1.8rem;
+}
+
+.inside_content_heading {
+    font-size: 28px;
+    font-weight: 900px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inside_content_text {
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 15px;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
+.box_position {
+    position: relative;
+}
+
+.box_2 {
+    top: 2rem;
+    left: -1.5rem;
+}
+
+.box_3 {
+    top: -2rem;
+    left: 2.5rem;
+}
+
+.box_4 {
+    left: 1.5rem;
 }
 
 /* book contents section ends  */
+
+/* footer sec  */
+.footer_sec {
+    background-color: rgb(38, 112, 175);
+}
+
+.page_footer {
+    padding: 2.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page_footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.page_footer p a {
+    color: #FFFFFF;
+    padding: 0 .2rem;
+}

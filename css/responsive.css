@@ -1,0 +1,176 @@
+@media screen and (max-width: 2560px) {
+    .request_free_book {
+        padding: 0px 10px;
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .request_free_book {
+        bottom: -100px;
+    }
+
+    .box_4 {
+        top: 0;
+        left: 1rem;
+    }
+
+    .curvy_ellipse {
+        height: 112vh;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .box_4 {
+        top: -2rem;
+        left: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .curvy_ellipse_content h1 {
+        padding: 0 !important;
+    }
+
+    .curvy_ellipse {
+        height: 125vh;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .book_image {
+        display: none;
+    }
+
+    .curvy_ellipse {
+        height: 123vh;
+    }
+
+    .home_selling_sec {
+        width: 100%;
+        height: auto;
+        margin-top: 6rem !important;
+    }
+
+    .request_free_book {
+        padding: 0px;
+        z-index: 99;
+        display: block;
+        min-height: 55vh;
+        margin: 0;
+    }
+
+    .request_copy_btn {
+        margin: .5rem 0;
+    }
+
+    .home_selling_para {
+        padding: 0 18px 0 18px;
+    }
+
+    .home_selling_tips {
+        padding: 20px;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        border-radius: 15px 15px 15px 15px;
+        position: relative;
+        top: 20px;
+        left: 0px;
+        margin-top: 0 !important;
+    }
+
+    .box_2 {
+        top: 2rem;
+        left: 0;
+    }
+
+    .box_3 {
+        top: 4rem;
+        left: 0;
+        background: #08bed5;
+    }
+
+    .box_4 {
+        top: 6rem;
+        left: 0;
+    }
+
+    .next_steps,
+    .Sales_Techniques,
+    .Howto_Proceed,
+    .Agent_Matters {
+        border-radius: 15px;
+        padding: 30px 30px 20px 30px;
+        margin: 0;
+    }
+
+    .Inside_book_contents_sec {
+        padding-bottom: 5rem !important;
+    }
+
+    .request_Acopy_btn {
+        margin-top: 6.5rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .curvy_ellipse {
+        height: 138vh;
+    }
+
+    .curvy_ellipse_content h1 {
+        font-size: 30px !important;
+        padding: 0 2rem !important;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .home_selling_sec {
+        margin-top: 8rem !important;
+    }
+}
+
+@media screen and (max-width: 593px) {
+    .request_Acopy_btn {
+        margin-top: 4.5rem;
+    }
+
+    .curvy_ellipse {
+        height: 123vh;
+    }
+}
+
+@media screen and (max-width: 498px) {
+
+    .curvy_ellipse {
+        height: 125vh;
+    }
+}
+
+@media screen and (max-width: 455px) and (min-width: 400px) {
+    .home_selling_sec {
+        width: 100%;
+        height: 410px;
+        margin-top: 3rem !important;
+    }
+
+    .home_selling_para {
+        height: auto;
+    }
+
+    .home_selling_text2 {
+        padding: 1.2rem 0;
+    }
+
+    .curvy_ellipse {
+        height: 164vh;
+    }
+
+    .home_selling_heading {
+        margin: 0 !important;
+        padding: 0 1rem;
+    }
+}
